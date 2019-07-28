@@ -1,0 +1,28 @@
+{
+    "conv_subsample_lengths": [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2],
+    "conv_filter_length": 16,
+    "conv_num_filters_start": 32,
+    "conv_init": "he_normal",
+    "conv_activation": "relu",
+    "conv_dropout": 0.2,
+    "conv_num_skip": 2,
+    "conv_increase_channels_at": 4,
+
+    "use_cycle_lr": false,
+    "learning_rate": 1e-3,
+
+    "use_mask_layer": false,
+    "mask_value": 0,
+
+    "batch_size": 16,
+
+    "use_weight_decay": false,
+    "dense_weight_decay": 0.00001,
+    "conv_weight_decay": 0.00001,
+
+    "pooling": "max",
+    "rnn_layers": false,
+
+    "save_dir": "saved"
+}
+
